@@ -10,7 +10,10 @@ import { logout } from '../services/authService';
      return (
        <div className="dashboard">
          <header className="dashboard-header">
-           <h1>Postomatic Pro</h1>
+           <div className="dashboard-logo">
+             <img src="/logo.png" alt="Postomatic Pro" />
+             <h1>Postomatic Pro</h1>
+           </div>
            <div className="user-info">
              <span>Welcome, {user.name}!</span>
              <button onClick={handleLogout} className="logout-btn">

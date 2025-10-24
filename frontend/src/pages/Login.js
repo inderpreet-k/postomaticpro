@@ -35,6 +35,7 @@ import { useState } from 'react';
      return (
        <div className="auth-container">
          <div className="auth-box">
+           <img src="/logo.png" alt="Postomatic Pro" className="auth-logo" />
            <h2>Login to Postomatic Pro</h2>
            <form onSubmit={handleSubmit}>
              <div className="form-group">
